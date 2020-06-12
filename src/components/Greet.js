@@ -1,5 +1,13 @@
 import React from 'react'
 
-export const Greet = () => <h1>Hello Bhaven</h1>
+const Greet = props => {
+return(
+    <div>
+        <h1>Hello, {props.name} the {props.heroName}</h1>
+        {props.children}
+    </div>
 
-// export default Greet
+)
+}
+
+export default Greet
