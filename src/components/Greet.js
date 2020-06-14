@@ -1,13 +1,12 @@
 import React from 'react'
 
 const Greet = props => {
-return(
-    <div>
-        <h1>Hello, {props.name} the {props.heroName}</h1>
-        { props.children }
-    </div>
-
-)
+    const { name, heroName } = props
+    return(
+        <div>
+            <h1>Hello, { name } the { heroName }</h1>
+        </div>
+    )
 }
 
 export default Greet
