@@ -1,11 +1,11 @@
 import React from 'react'
 import './App.css'
-import ParentComponent from './components/ParentComponent'
+import UesrGreeting from './components/UesrGreeting'
 
 function App() {
   return (
     <div className="App">
-      <ParentComponent/>
+      <UesrGreeting />
     </div>
   );
 }
