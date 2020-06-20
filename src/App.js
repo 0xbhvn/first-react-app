@@ -1,11 +1,13 @@
 import React from 'react'
 import './App.css'
-import NameList from './components/NameList'
+import FragmentDemo from './components/FragmentDemo'
+import Table from './components/Table'
 
 function App() {
   return (
     <div className="App">
-      <NameList />
+      <FragmentDemo />
+      <Table />
     </div>
   );
 }

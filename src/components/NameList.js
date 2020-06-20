@@ -2,8 +2,8 @@ import React from 'react'
 import Person from './Person'
 
 function NameList() {
-    const names = ['Bruce', 'Clark', 'Diana']
-    const nameList = names.map(name => <h2>{ name }</h2>)
+    const names = ['Bruce', 'Clark', 'Diana', 'Bruce']
+const nameList = names.map((name, index) => <h2 key = { index }>{ index } { name }</h2>)
 
     const people = [
         {
@@ -29,7 +29,7 @@ function NameList() {
 
     return (
         <div>
-            { peopleList }
+            { nameList }
         </div>
     )
 }
