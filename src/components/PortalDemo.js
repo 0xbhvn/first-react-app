@@ -6,7 +6,7 @@ function PortalDemo() {
         <h1>
             Portals Demo
         </h1>,
-        document.getElementById()
+        document.getElementById('portal-root')
     )
 }
 
